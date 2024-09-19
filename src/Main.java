@@ -19,11 +19,12 @@ public class Main {
 		System.out.println("Enter a noun");
 		String noun = in.nextLine();
 		
-		System.out.println("Enter an emotion");
+		System.out.println("Enter an emotion(not past term)");
 		String emotion = in.nextLine();
 		
 		System.out.println("Enter a number that is more than one");
 		String number = in.nextLine();
+
 		
 		System.out.println("Enter an animal that is plural");
 		String animal = in.nextLine();
@@ -53,18 +54,28 @@ public class Main {
 		System.out.print(character);
 		System.out.print(" finds the ");
 		System.out.print(noun);
-		System.out.print(" , I realize that it is a ");
-		System.out.print(emotion + " movie. ");
+		System.out.print(", directed by Mai-Lee , I realize that it is a ");
+		System.out.println(emotion + " movie. ");
 		System.out.print(character + " is being chased by ");
 		System.out.print(number);
 		System.out.print(" ");
 		System.out.print(animal);
-		System.out.print(" that eats " + food + ". ");
+		System.out.println(" that eats " + food + ". ");
 		System.out.print(character + " keeps " + verb);
 		System.out.print(" untill they find a " + building);
-		System.out.print(". They go inside and try to hide from the " + animal); 
-		System.out.print(character + " wanders off and soon discovers the best thing in the world. ");
-		System.out.print("A " + size + " " + noun2 + ". ");
+		System.out.println(". ");
+		System.out.print("They go inside and try to hide from the " + animal); 
+		System.out.println(". ");
+		System.out.print("The " + animal);
+		System.out.print(" goes away and ");
+		System.out.println(character + " wanders off and soon discovers the best thing in the world. ");
+		System.out.println("A " + size + " " + noun + ". ");
+		System.out.print("After picking it up they go outside to find a " + transportation);
+		System.out.println(". ");
+		System.out.print(character + " gets on and goes back to their home, " + noun2);
+		System.out.println(" land.");
+		System.out.print("The End.");
+		
 		
 		
 		
